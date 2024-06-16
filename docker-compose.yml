@@ -23,7 +23,7 @@ services:
     volumes:
       - ./:/app
     environment:
-      - WEB_DOCUMENT_ROOT=/app/webroot
+      - WEB_DOCUMENT_ROOT=/app/src
       - DATABASE_URL=mysql://my_user:secret@hannahs_haus_db/my_app
     ports:
       - "80:80"
